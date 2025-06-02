@@ -54,7 +54,10 @@ int main(){
 
     if (escolhaJogador == escolhaComputador){
         printf("Empatou, jogue novamente!\n");
-    } else if (escolhaJogador == 1 && escolhaComputador == 3 || escolhaJogador == 2 && escolhaComputador == 1 || escolhaJogador == 3 && escolhaComputador == 2){
+    } else if (escolhaJogador == 1) && (escolhaComputador == 3) || 
+                (escolhaJogador == 2) && (escolhaComputador == 1) || 
+                (escolhaJogador == 3) && (escolhaComputador == 2)
+    {
         printf("Parabéns, você é o ganhador!\n");
     } else {
         printf("Que pena, você perdeu a rodada.\n");
